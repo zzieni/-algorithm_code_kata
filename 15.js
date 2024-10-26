@@ -19,3 +19,7 @@ function solution(n) {
 
 console.log(solution(12));
 console.log(solution(5));
+
+console.log(true && false); // false
+console.log(true && true); // true
+console.log(0 && console.log('찍혔다!')); // 0
